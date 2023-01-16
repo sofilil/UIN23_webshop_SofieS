@@ -14,7 +14,7 @@
 
 body{
     background-color: var(--yellow);
-    background-image: url('media/mainbackground.png');
+    background-image: url('images/mainbackground.png');
     font-family: 'Rubik', sans-serif;
     font-size: var(--rootsize);
     padding-top: 0;
@@ -78,6 +78,11 @@ ul{
 
 li{
     color: var(--white);
+}
+
+ul :hover{
+    background-color: var(--yellow);
+    color: var(--black);
 }
 
 
